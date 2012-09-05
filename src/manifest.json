@@ -23,7 +23,7 @@
             "js/vendor/jquery-1.8.1.js"
         ]
     },
-    "content_security_policy": "default-src 'none'; style-src 'self' 'unsafe-inline'; connect-src *; img-src *",
+    "content_security_policy": "default-src 'none'; style-src 'self' 'unsafe-inline'; connect-src *; img-src *; script-src 'self';",
     "permissions": [
         "unlimitedStorage",
         "notifications",

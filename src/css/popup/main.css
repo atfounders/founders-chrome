@@ -1,0 +1,61 @@
+body {
+  background: black;
+  background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png);
+}
+
+*:focus {
+  border: none;
+  outline: none;
+}
+
+.binary > li {
+  width: 50%;
+  text-align: center;
+}
+
+.binary > li > a {
+  margin: 0px;
+}
+
+.voting {
+  border-bottom: 1px solid #999;
+  margin-bottom: 4px;
+}
+
+.voting li:first-child a {
+  border-right: 1px solid #999;
+}
+
+.voting > li > a {
+  border-radius: 0;
+}
+
+.voting > li > a h6 {
+  color: white;
+  text-shadow: 0 1px 0px #333;
+  margin: 0;
+}
+
+.voting > li > a:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.voting > li > a:hover h6 {
+  color: #333;
+  text-shadow: 0 1px 0px #ccc;
+}
+
+.voting > li > a > i {
+  margin-bottom: 8px;
+}
+
+.content {
+  text-align: center;
+  color: #ccc;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.bottom-toolbar .btn {
+  border-radius: 0;
+}

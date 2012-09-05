@@ -10,5 +10,11 @@ The unofficial Chrome extension for [Founders](http://atfounders.com).
 5. Select the folder containing the extension
 
 ## Features
+* Song voting
+* Check-in and check-out
 
 ## Wishlist
+* Now playing
+* Notifications
+* Founders bookmarks?
+* Tabbed pages within the extension?
