@@ -28,6 +28,7 @@ body {
 
 .voting > li > a {
   border-radius: 0;
+  position: relative;
 }
 
 .voting > li > a h6 {
@@ -58,4 +59,35 @@ body {
 
 .bottom-toolbar .btn {
   border-radius: 0;
+}
+
+/* Voting animations */
+@-webkit-keyframes voted {
+   from { 
+     -webkit-transform: scale(1.0);
+     top: 15px;
+   }
+   to   { 
+     -webkit-transform: scale(0.5); 
+     top: 2px;
+   }
+}
+
+.img-voted {
+  position: absolute;
+  z-index: 1;
+  border: 0;
+  top: 15px;
+  left: 20px;
+}
+
+.voted > .img-voted {
+  -webkit-animation-name: voted;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease; /* ease is the default */
+  -webkit-animation-delay: 0;             /* 0 is the default */
+  -webkit-animation-iteration-count: 1;    /* 1 is the default */
+  -webkit-animation-direction: alternate;  /* normal is the default */
+  -webkit-transform: scale(0.5);
+  top: 2px;
 }
